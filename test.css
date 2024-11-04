@@ -1,0 +1,487 @@
+#test a{
+    font-size:55px; text-decoration: none;color: green;
+}
+#head {
+    display: flex;
+}
+#test1 a{
+    text-decoration: none;font-size: 20px; padding:6px ;
+    padding-left: 100px;padding-top: 50px;color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+#test2{
+    display: flex;
+}
+#test2{
+   height: 80px; font-size: 25px;padding-left: 20px;background-color: rgb(164, 214, 164);
+padding-top: 29px;
+}
+#test2b button{
+    margin-left: 130px;font-size: 36px;color: antiquewhite;border-color: antiquewhite;
+    background-color:rgb(164, 214, 164) ;font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 25px 35px;
+}
+#test2b a{
+    margin-left: 30px;font-size: 36px;color: antiquewhite;border-color: antiquewhite;
+    background-color:rgb(164, 214, 164) ;font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 25px 35px;
+}
+#test3a {
+    font-size: 40px;padding-left: 45px;color: green;
+}
+#test3a span{
+    font-size: 40px;padding-left: 45px;color: green;padding-top: 30px;
+}
+.black{
+    font-size:20px ;color: black;
+}
+#test3{
+    display: flex;
+}
+#test3b{
+margin-left: 200px;margin-top: 45px;
+}
+#test4{
+  margin-top: 70px; padding-left: 80px; font-size: 30px;color:brown ;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.roll{
+    font-size:24px ; font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+#test5b p{
+ margin-top: 1px; margin-left: 100px;height: 38px;width: 300px; font-size: 25px;
+ border: 5px solid rgb(221, 157, 60);box-shadow:10px 1px 1px;  color:orangered ; 
+}
+#test5{
+    display: flex;
+}
+#test6{
+  padding-left: 80px;  font-size: 45px;font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.roll1{
+    font-size: 15px;font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.roll2{
+    font-size: 30px;
+}
+#test7{
+    display: flex;
+}
+#test7 a{
+    text-decoration: none;font-size: 20px;color: black;padding:120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#test7 p{
+    font-size: 14px;padding:120px;padding-top: 3px;
+}
+#test7a{
+border: 1px solid blueviolet;box-shadow: 9px 6px 2px;height: 100px;
+width: 30%;margin-left: 30px;
+}
+#test7b{
+    border: 1px solid orange;box-shadow: 9px 6px 2px;height: 100px;
+width: 30%;margin-left: 30px;
+}
+#test7c{
+    border: 1px solid rgb(117, 162, 175);box-shadow: 9px 6px 2px;height: 100px;
+    width: 30%;margin-left: 30px; 
+}
+#test8{
+    display: flex;margin-top: 35px;
+}
+#test8 a{
+    text-decoration: none;font-size: 20px;color: black;padding:120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#test8 p{
+    font-size: 14px;padding:120px;padding-top: 3px;
+}
+#test8a{
+border: 1px solid rgb(60, 47, 236);box-shadow: 9px 6px 2px;height: 100px;
+width: 30%;margin-left: 30px;
+}
+#test8b{
+    border: 1px solid rgb(235, 238, 75);box-shadow: 9px 6px 2px;height: 100px;
+width: 30%;margin-left: 30px;
+}
+#test8c{
+    border: 1px solid rgb(55, 219, 83);box-shadow: 9px 6px 2px;height: 100px;
+    width: 30%;margin-left: 30px; 
+}
+#test9{
+    display: flex;margin-top: 35px;
+}
+#test9 a{
+    text-decoration: none;font-size: 20px;color: black;padding:120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#test9 p{
+    font-size: 14px;padding:120px;padding-top: 3px;
+}
+#test9a{
+border: 1px solid rgb(187, 54, 199);box-shadow: 9px 6px 2px;height: 100px;
+width: 30%;margin-left: 30px;
+}
+#test9b{
+    border: 1px solid rgb(24, 211, 86);box-shadow: 9px 6px 2px;height: 100px;
+width: 30%;margin-left: 30px;
+}
+#test9c{
+    border: 1px solid rgb(17, 130, 161);box-shadow: 9px 6px 2px;height: 100px;
+    width: 30%;margin-left: 30px; 
+}
+.roll3 a{
+ margin-top: 75px;font-size: 25px;font-size:40px;height: 80px;color: white;
+    background-color: rgb(21, 212, 21);border-color: rgb(30, 199, 30);border-radius: 2px 6px;
+    text-decoration: none;height: 80px;
+}
+#test9d button{
+       margin-top: 75px;font-size: 25px;font-size:40px;height: 80px;color: white;
+       background-color: rgb(21, 212, 21);border-color: rgb(30, 199, 30);border-radius: 2px 6px;
+       text-decoration: none;height: 50px;width: 40%;
+    }
+#test9e{
+    font-size: 30px;margin-left: 50px;font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#test10{
+    display: flex;font-size: 20px;
+}
+#test10a{
+margin-left: 70px;
+}
+#test10b{
+    margin-left: 150px;
+}
+#test10c{
+    margin-left: 210px;  
+}
+#test11{
+    display: flex;font-size: 20px;
+}
+#test11a{
+margin-left: 70px;
+}
+#test11b{
+    margin-left: 150px;
+}
+#test11c{
+    margin-left: 140px;  
+}
+#test12{
+    display: flex;font-size: 20px;
+}
+#test12a{
+margin-left: 70px;
+}
+#test12b{
+    margin-left: 150px;
+}
+#test12c{
+    margin-left: 140px;  
+}
+#test12d{
+    font-size: 35px;margin-top: 25px;margin-left: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#test12e{
+    font-size: 20px;margin-left: 70px;
+}
+#test12f{
+    display: flex;font-size: 28px;margin-left: 100px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#test12f span{
+    padding-left: 280px;
+}
+#test13a p{
+ padding-top: 12px; padding-left: 80px;margin-left: 100px;  border: 1px solid rgb(51, 129, 51);height: 100px;width:180px;font-size: 20px;
+box-shadow:1px 1px 1px ;background:linear-gradient(to right,  rgb(41, 88, 41)10%,rgb(249, 252, 249)40%,rgb(215, 223, 215)50%, 100%) ;
+}
+
+
+#test13 span{
+    color: rgb(51, 129, 51) ;font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.roll4a{
+ padding-left: 80px;margin-left: 50px;  border: 1px solid rgb(51, 129, 51);height: 80px;width: 20%;font-size: 30px;
+box-shadow:1px 1px 1px ;background:linear-gradient(to right,  rgb(41, 88, 41)10%,rgb(249, 252, 249)40%,rgb(215, 223, 215)50%, 100%) ;
+
+}
+.roll4b{
+  padding-bottom: 2px; margin-top: 20px; padding-left: 80px;  border: 1px solid rgb(51, 129, 51);height: 50px;width: 30%;font-size: 30px;
+box-shadow:1px 1px 1px ;background:linear-gradient(to right,  rgb(41, 88, 41)10%,rgb(249, 252, 249)40%,rgb(215, 223, 215)50%, 100%) ;  
+}
+#test13{
+   display: flex;
+}
+#test14 p{
+margin-top: 30px;font-size: 25px;padding-left: 50px;
+}
+#test13b{
+    margin-left: 100px;height: 300px;
+}
+
+#total{
+    background-color: gainsboro;
+}
+#test18{
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 20px;
+    height: 400px;
+    
+   
+}
+.bg1{
+    height: 20px;
+    background-color: rgb(209, 105, 235);
+}
+#test15{
+    width: 40%;
+    box-shadow: 0px 0px 10px 5px rgb(187, 181, 181);
+    margin-left: 40px;
+    position: absolute;
+}
+.test17{
+    display: flex;
+    margin-top: 70px;
+}
+.point{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.point2{
+    margin-top: 70px;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+.test15a img{
+    margin-top: 40px;
+  width: 100px;
+  height: 100px;
+
+  
+}
+.test15b #view{
+    font-weight: bolder;
+    font-size: 25px;
+}
+#view2{
+    margin-left: 50px;
+}
+#test18a{
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 20px;
+    height: 400px;
+   
+}
+.bg2{
+    height: 20px;
+    background-color: rgb(209, 105, 235);
+}
+#test151{
+    width: 40%;
+    box-shadow: 0px 0px 10px 5px rgb(187, 181, 181);
+    margin-left: 650px;
+    position: absolute;
+    margin-top: 50px;
+}
+.test14a{
+    display: flex;
+    margin-top: 70px;
+}
+.point1{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.point2a{
+    margin-top: 70px;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+.test15a1 img{
+    margin-top: 40px;
+  width: 100px;
+  height: 100px;
+
+  
+}
+.test15b1 #view{
+    font-weight: bolder;
+    font-size: 25px;
+}
+#view2a{
+    margin-left: 50px;
+    
+}
+#test13ac{
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 20px;
+    height: 400px;
+    
+   
+}
+.bg2b{
+    height: 20px;
+    background-color: rgb(209, 105, 235);
+}
+#test151a{
+    width: 40%;
+    box-shadow: 0px 0px 10px 5px rgb(187, 181, 181);
+    margin-left: 40px;margin-top: 510px;
+    position: absolute;
+}
+.test14ad{
+    display: flex;
+    margin-top: 70px;
+}
+.test15b1 #view1{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.point1g{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.point2aj{
+    margin-top: 70px;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+.test15a1e img{
+    margin-top: 40px;
+  width: 100px;
+  height: 100px;
+
+  
+}
+.test15b1f #view1h{
+    font-weight: bolder;
+    font-size: 25px;
+}
+#view2ak{
+    margin-left: 50px;
+}
+.test15a1 img{
+    margin-top: 40px;
+  width: 100px;
+  height: 100px;
+
+  
+}
+.test15b1 #view{
+    font-weight: bolder;
+    font-size: 25px;
+}
+#view2a{
+    margin-left: 50px;
+}
+#test13ac{
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 20px;
+    height: 400px;
+    
+   
+}
+.bg2b{
+    height: 20px;
+    background-color: rgb(209, 105, 235);
+}
+#test16a{
+    width: 40%;
+    height: 470px;
+    box-shadow: 0px 0px 10px 5px rgb(187, 181, 181);
+    margin-left: 650px;margin-top: 580px;
+    position: absolute;
+}
+.test16c{
+    display: flex;
+    margin-top: 70px;
+}
+.point1g1{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.point2aj{
+    margin-top: 70px;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+.test16a img{
+    margin-top: 40px;
+  width: 100px;
+  height:100px;
+
+  
+}
+.test16e #view1h{
+    font-weight: bolder;
+    font-size: 25px;
+}
+#viewa1{
+    margin-left: 50px;
+}
+.test16e #viewa2{
+   font-weight: bolder;
+    font-size: 25px;
+}
+#test17{
+    margin-top: 1200px;
+   font-size: 35px;
+   color: rgb(18, 206, 18);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#test17 button{
+    font-size: 30px;
+    width: 35%;
+    border-radius: 20px 20px;
+    color:white ;
+    background-color:rgb(18, 206, 18); 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color:rgb(18, 206, 18) ;
+}
+#test17a{
+    height: 3px;
+    background-color: rgb(43, 42, 42);
+    margin-top: 25px;
+}
+#test17b {
+    font-size: 30px;
+   margin-left: 100px;
+    display: flex;font-weight: bolder;
+    
+}
+#test17b2{
+    padding-left: 100px;
+}
+#test17b3{
+    padding-left: 100px;
+}
+#test17b4{
+    padding-left: 100px;
+}
+#test18{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

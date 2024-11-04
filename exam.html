@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+            var fname,lname,email,mobile,website,jobprofile,skills,numofopenings,payscale,eduqualication,jobdescription;
+          function _(x){
+            return document.getElementById(x);
+          }
+          function processphase1(){
+            fname=_("firstname").value;
+            lname=("lastname").value;
+            if(name.length>2 && lname.length>2){
+                _("phase1").style.display="none";
+                _("phase2").style.display="block";
+                _("progressBar").value=25;
+                _("status").innerHTML= "phase 2 of 4 | Best Way to Reach You";
+            }else{
+                alert("please fill in the field");
+            }
+          }
+          
+          function processphase2(){
+           enam =_("email").value;
+            mobm=_("mobile").value;
+            webm=("website").value;
+            if(name.length>2 && lname.length>2){
+                _("phase2").style.display="none";
+                _("phase3").style.display="block";
+                _("progressBar").value=50;
+                _("status").innerHTML= "phase 3 of 4 | Best Way to Reach You";
+            }else{
+                alert("please fill in the field");
+            }
+          }
+           function processphase3(){
+           jobm =_("jobprofiles").value;
+           skillm=_("skills").value;
+            numm=("numofopenings").value;
+            if(name.length>2 && lname.length>2){
+                _("phase3").style.display="none";
+                _("phase4").style.display="block";
+                _("progressBar").value=75;
+                _("status").innerHTML= "phase 3 of 4 | Best Way to Reach You";
+            }else{
+                alert("please fill in the field");
+            }
+          }
+          function processphase4(){
+           paym =_("payscale").value;
+           edum=_("eduqualication").value;
+            jdm=("numofopenings").value;
+            if(name.length>2 && lname.length>2){
+                _("phase4").style.display="block";
+                _("progressBar").value=100;
+                _("show_all_data").style.display="block";
+                _("diplay_fname").innerHTML=fname;
+                 _("diplay_email").innerHTML=enam;
+                  _("diplay_mobile").innerHTML=mobm;
+                   _("diplay_website").innerHTML=webm;
+                    _("diplay_jobprofile").innerHTML=jobm;
+                     _("diplay_skills").innerHTML=skillm;
+                      _("diplay_numofopenings").innerHTML=numm;
+                       _("diplay_payscale").innerHTML=paym;
+                        _("diplay_eduqualication").innerHTML=edum;
+                         _("diplay_jobdescription").innerHTML=jdm;
+
+                   _("status").innerHTML="job description";
+
+               
+            }
+          }
+          function SubmitForm(){
+            _("multiphase").method="post";
+            _("multiphase").action="client_parser.php";
+            _("multiphase").submit();
+          }
+
+            </script>
+       
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unihiring</title>
+    <link rel="stylesheet" href="exam.css">
+</head>
+
+<header>
+    <div id="run2">
+    <div id="run">
+    <img src="unihiring.jpg">
+</div>
+<div id="run1">
+    <ul>
+    <a href="http://www.unihiring.com/contest/contest.jsp">STUDENTS</a>
+    <a href="http://www.unihiring.com/services.html">FIRMS</a>
+    <a href="http://www.unihiring.com/partners.html">COLLEGES</a>
+    <a href="http://www.unihiring.com/client/postfreejob.php">POST JOBS</a>
+</ul>
+</div>
+</div>
+</header>
+<body>
+    <div id="exam">
+    <div id="run3">
+        <div id="run3a">
+        <img src="textilejobs1.png"><br>
+        <p>TEXTILE JOBS</p>
+    </div>
+    <div id="run3b">
+        <img src="accountingjobs1.png"><br>
+        <p>ACCOUNTING JOBS</p>
+    </div>
+    <div id="run3c">
+        <img src="manufacturingjobs1.png"><br>
+        <p>MANUFACTURING JOBS</p>
+    </div>
+    </div>
+    <div id="run4">
+        <div id="run4a">
+        <img src="communicationjobs1.png"><br>
+        <p>COMMUNICATION JOBS</p>
+    </div>
+    <div id="run4b">
+        <img src="informationtechnologyjobs1.png"><br>
+        <p>IT JOBS</p>
+    </div>
+    <div id="run4c">
+        <img src="automobilejobs1.png"><br>
+        <p>AUTOMOBILES JOBS</p>
+    </div>
+    </div>
+    
+    <div id="run5">
+        <div id="run5a">
+        <img src="fs1.png"><br>
+        <p>PROFILE DESIGNATIONS</p>
+    </div>
+    <div id="run5b">
+        <img src="fs2.png"><br>
+        <p>TRAINING</p>
+    </div>
+    <div id="run5c">
+        <img src="fs3.png"><br>
+        <p>JOB OPENINGS</p>
+    </div>
+    </div>
+</div>
+<div id="exam1">
+    <div id="run6">
+        <p>Get Hired Quickly,Upload your Resume</p>
+    </div>
+    <div id="run6a">
+        <button>UPLOAD</button>
+    </div>
+</div>
+<div id="exam2">
+    <div id="run7">
+        <img src="job.png">
+    </div>
+    <div id="run7a">
+        <form>
+            <input id="text"placeholder="Full Name"required="required"><br>
+            <input id="text"placeholder="Email Address"required="required"><br>
+            <input id="text"placeholder="University Exam No."required="required"><br>
+            <input id="text"placeholder="Mob No."required="required"><br>
+            <input class="ring" id="click"type="submit"value="Sign UP">
+        </form>
+    </div>
+
+</div>
+<div id="run8">
+    <p>JOB OPENINGS</p>
+</div>
+<div id="run8a">
+    <table>
+        <tr>
+        <th ></th><th>company</th><th>profile</th><th>location</th>
+        <th>skills</th><th>pay</th><th></th>
+    </tr>
+    <br>
+    <tr align="center">
+        <td><img src="m5stars.png"></td>
+        <td class="nun">Loopixer</td>
+        <td>Software Developer</td>
+        <td>Coimbatore</td>
+        <td >IOS</td>
+        <td>Negotiable</td>
+        <td><button class="row3"><a href="htttp://www.unihiring.com/Apply">ApplyNow</a></button></td>
+         
+    </tr>
+
+    <br>
+    <tr align="center">
+        <th><img src="m5stars.png"></th>
+        <th>Holiday Triangle Travel Pvt.ltd</th>
+        <th>SEO Analyst</th>
+        <th>Gurgaon,India</th>
+        <th>ON Page optima\ization<br> Inbound Links</th>
+        <th>5-7 Ipa</th>
+        <th><button class="row3"><a href="htttp://www.unihiring.com/Apply">ApplyNow</a></button></th>
+        
+        </tr>
+        
+        <tr align="center">
+             <td><img src="m5stars.png"></td>
+             <td class="nun">Clipher Labs</td>
+            <td>Android Developer</td>
+            <td>coimbatore</td>
+            <td align="center">PHPS,Android SDK</td>
+            <td>2.0 lpa</td>
+            <td><button class="row3"><a href="htttp://www.unihiring.com/Apply">ApplyNow</a></button></td>
+            
+
+        </tr>
+        <tr align="center">
+            <th><img src="m4starswhite.png"></th>
+            <th>FM Groups</th>
+            <th>Logistic Manager</th>
+            <th>Chennai</th>
+            <th>Logistic Management</th>
+            <th>3.5 lpa</th>
+            <th><button class="row3"> <a href="htttp://www.unihiring.com/Apply">ApplyNow</a></button></th>
+            
+            </tr>
+            <tr align="center">
+                <td><img src="m5stars.png"></td>
+                <td class="nun">TchnoLawn</td>
+               <td>Web Designer</td>
+               <td>chennai</td>
+               <td>HTML5,CSS3</td>
+               <td>3.03 lpa</td>
+               <td><button class="row3"><a href="htttp://www.unihiring.com/Apply">ApplyNow</a></button></td>
+               
+   
+           </tr>
+           <tr align="center">
+            <th><img src="m4starswhite.png"></th>
+            <th>Unihring</th>
+            <th>Software Engineer-trainee</th>
+            <th>Banglore</th>
+            <th>Java,J2ee</th>
+            <th>2.03 lpa</th>
+            <th><button class="row3"><a href="htttp://www.unihiring.com/Apply">ApplyNow</a></button></th>
+            
+            </tr>
+            <br>
+            <tr align="center">
+                <td><img src="m4starswhite.png"></td>
+               <td class="nun"> Cartbest</td>
+               <td>Business Anayst</td>
+               <td>Kerala</td>
+               <td>Interface Analysis</td>
+               <td>2.02 lpa</td>
+               <td><button class="row3"> <a href="htttp://www.unihiring.com/Expired">Expired</a> </button></td>
+              
+            </tr>
+            <tr align="center">
+                <th><img src="m4starswhite.png"></th>
+                <th>Workready Knowledge<br> Solutions Pvt.Ltd</th>
+                <th>E-Learning Sales Executive</th>
+                <th>Gurgaon</th>
+                <th>B2B Service Delivery</th>
+                <th>Negotiable</th>
+                <th><button class="row3"><a href="htttp://www.unihiring.com/Expired">Expired</a></button></th>
+            
+                </tr>
+
+            </table>
+             </div>
+        <div id="exam3">    
+      <div id="run9a">
+        <p>20,000+<span>interviews</span></p>
+      </div> 
+      <div id="run9b">
+        <p>35,000+<span>Trainings</span></p>
+      </div>   
+      <div id="run9c">
+        <p>50,000+<span>Feast</span></p></ul>
+      </div>  
+    </div> 
+    <div id="examination1">
+        <div id="exaamination2">
+    <div id="exam4">
+        <div id="run10">
+            <img  class="non" src="detailslobby1.png"><br>
+            <p><span>TALENTPOOL</span><br>UniHiring provides a platform for thousands of<br> aspirants to showcase their Talent among a Wide Range<br> of Talent Pool and a chance to Qualify their<br> Employability</p>
+        </div>
+        <div id="run10a">
+            <img  class="non" src="detailslobby2.png"><br>
+            <p><span>HIRINGSIMPLIFIED</span><br>UniHiring's Key aspects are Training based on 100+<br> Profile Designations, Employability Training based on<br> Client Requirements,Fast Forward Hiring Solutions</p>
+        </div>
+        <div id="run10b">
+            <img class="non" src="detailslobby3.png"><br>
+            <p><span>EMPLOYABILITY</span><br>UniHiring is a Personalised and Inexpensive Hiring<br> platform for Engineering / Arts / MBA freshers to get<br> their Entry level jobs in IT, Banking, Retail, Marketing,<br> BPO,Designing, Pharma, Construction, Manufacturing,<br> Hospitality, Aviationy</p>
+        </div>
+    </div>
+</div>
+</div>
+<div id="exam5">
+    <div id="run11" align="center">
+    <p>Showcase Your Talent & Get Hired</p><br>
+</div>
+<div id="run11a"align="center">
+    <img src="processflow1a.png" width="30%">
+    <img src="processflow1b.png" width="30%">
+    <img src="processflow1c.png" width="30%">
+</div>
+<div id="run11b" align="center">
+    <button>Try For Free</button>
+</div>
+</div>
+<div id="exam6">
+    <div id="run12" align="center">
+        <p>Meet 1000 new Candidates Every Week</p>
+    </div>
+    <div id="run12a">
+        <div id="run12b"  align="center">
+            <img src="detailslobby1.png"><br>
+            <p><span>Corporates</span><br>Discover A New Range of Talent Pool</p>
+        </div>
+        <div id="run12c"  align="center">
+            <img src="detailslobby2.png"><br>
+            <p><span>StartUps</span><br>Whether you're an established business or a hot new<br> startup</p>
+            </div>
+         <div id="run12d"  align="center">
+            <img src="detailslobby3.png"><br>
+            <p><span>SME's | Brands</span><br>Your Personalised Hiring,EveryTime</p>
+            </div>
+    </div>
+    <div id="run12e" align="center">
+        
+    </div>
+    <div id="run12f" align="center">
+        <form>
+            <div id="phase1">
+                <p>Phase 1 of 4 | How would you describe your company?</p>
+            <input id="first name" type="text"placeholder="Company's Name"required="required"><br>
+            <input id="last name" type="text"placeholder="Banglore,India"required="required"><br>
+            <button onclick="processphase1()"> continue</button>
+        </div>
+        
+    
+</div>
+</div>
+<div id="exam7">
+    <div id="run13" align="center">
+        <p style="font-size: 30px;">Showcase Your Talent & Get Hired</p><br>
+    </div>
+    <div id="run11a"align="center">
+        <img src="sh1.jpg" width="30%">
+        <img src="sh2.jpg" width="30%">
+        <img src="sh3.jpg" width="30%">
+    </div>
+    <div id="run13a" align="center">
+        <button>Try For Free</button>
+    </div>
+</div>
+<div id="examination3">
+<div id="examination4">
+    
+<div id="exam8"align="center">
+    <div id="run14a">
+<p>Stand Out from the Crowd<br>
+        If you have the <span>Talent,<br></span>
+        We are here to help you</p>
+    
+    </div>
+<div id="run14" align="center">
+    <table><tr>
+    <button>Start Test</button>
+</table></tr>
+</div>     
+</div>
+</div>
+</div>
+</div></div></div>
+<div id="run15" align="centre">
+    <p>Assisting Thousands of Students to Dream Job!</p>
+</div>
+
+<div id="exam9">
+
+<div id="run15a">
+    <div class="reduce">
+        <img src="q1.jpg" width="180px">
+    </div>
+    <div class="reduce1">
+        <p class="alignright">Reduce<br> Hiring Cost7%</p>
+    </div>
+   </div>
+
+   <div id="run15b">
+   <div class="bowl">
+    <img src="q2.jpg" width="180px">
+</div>
+<div class="bowl1">
+    <p class="bowl2">On Time,<br>EveryTime</p>
+</div>
+</div>
+
+<div id="run15c">
+    <div class="bowl3">
+     <img src="q2.jpg" width="180px">
+ </div>
+ <div class="bowl4">
+     <p class="bowl5">Hire Only<br>The Best</p>
+ </div>
+</div>
+</div>
+<div id="exam10">
+
+    <div id="run16">
+        <div class="reduce2">
+            <img src="q4.jpg" width="180px">
+        </div>
+        <div class="reduce3">
+            <p class="alignright">Keep Track<br> Hiring Cost7%</p>
+        </div>
+       </div>
+    
+       <div id="run16a">
+       <div class="bowl5">
+        <img src="q5.jpg" width="180px">
+    </div>
+    <div class="bowl6">
+        <p class="bowl2">On Time,<br>of profiles</p>
+    </div>
+    </div>
+    
+    <div id="run16b">
+        <div class="bowl3">
+         <img src="q6.jpg" width="180px">
+     </div>
+     <div class="bowl7">
+         <p class="bowl8" >Access to<br>Multi Tools</p>
+     </div>
+    </div>
+    </div>
+    <div id="exam11">
+        <div id="run17"align="center">
+<p>One Step Close to Dream Job<br>
+    If you think you are<span> Employable,</span><br>
+    Book your Test and get Hired.
+
+</p>
+        </div>
+    <div id="run17b"align="center">
+        <button class="type">Book Ur Test </button>
+    </div>
+    </div>
+    
+        
+    
+</body>
+<footer>
+    <div id="exam12">
+    <div id="run18">
+<a class="watch" style="color: aliceblue;" href="http://www.unihiring.com/jobsbydegree.asp">Job By Degree</a><br>
+<a href="http://www.unihiring.com/bcommcomjobs.asp">B.com/M.com jobs</a><br>
+<a href="http://www.unihiring.com/bebtechjobs.asp">BE/B.Tech Jobs </a><br>
+<a href="http://www.unihiring.com/bscmscjobs.asp">B.Sc/M.Sc jobs</a><br>
+<a href="https://unihiring.com/diplomaitijobs.asp">Diplomo/ITI Jobs</a><br>
+<a href="http://www.unihiring.com/mbapgdmjobs.asp">MBA/PGDM Jobs </a><br>
+<a href="http://www.unihiring.com/memtechjobs.asp">ME/M.Tech Jobs </a><br>
+<a href="http://www.unihiring.com/jobsbydegree.asp">see all </a >
+</div>
+<div id="run18a">
+    <a class="watch" style="color: aliceblue;" href="http://www.unihiring.com/apply.html">Job by location</a><br>
+<a href="http://www.unihiring.com/bangalorejobs.asp">bannglore Jobs </a><br>
+<a href="http://www.unihiring.com/chennaijobs.asp">Chennai  Jobs</a><br>
+<a href="http://www.unihiring.com/coimbatorejobs.asp">Coimbatore Jobs</a><br>
+<a href="http://www.unihiring.com/gurgaonjobs.asp">Gurgaon Jobs </a><br>
+<a href="http://www.unihiring.com/hyderabadjobs.asp">Hyderabad Jobs </a><br>
+<a href="http://www.unihiring.com/mumbaijobs.asp">mumbaijobs </a >
+    <a href="http://www.unihiring.com/apply.html">see all </a >
+</div>
+<div id="run18b">
+    <a class="watch"style="color: aliceblue;" href="http://www.unihiring.com/jobsbysector.asp">Job by sector</a><br>
+    <a href="http://www.unihiring.com/circuitjobs.asp">circuitjobs Jobs </a><br>
+    <a href="http://www.unihiring.com/communicationjobs.asp">communication Jobs</a><br>
+    <a href="http://www.unihiring.com/informationtechjobs.aspp">informationtech Jobs</a><br>
+    <a href="http://www.unihiring.com/managementjobs.asp">management Jobs </a><br>
+    <a href="http://www.unihiring.com/manufacturingjobs.asp">Manufacturing Jobs </a><br>
+    <a href="http://www.unihiring.com/textilesjobs.asp">textilesjobs </a >
+        <a href="http://www.unihiring.com/jobsbysector.asp">see all </a >
+</div>
+<div id="run18c">
+    <a class="watch" style="color: aliceblue;"href="http://www.unihiring.com/jobsbybranch.asp">Job by branch</a><br>
+    <a href="http://www.unihiring.com/csejobs.aspsp">CSE Jobs </a><br>
+    <a href="http://www.unihiring.com/ecejobs.asp">ECE Jobs</a><br>
+    <a href="http://www.unihiring.com/eeejobs.asp">EEE Jobs</a><br>
+    <a href="http://www.unihiring.com/itjobs.asp">IT Jobs </a><br>
+    <a href="http://www.unihiring.com/mechjobs.asp">Mech Jobs </a><br>
+    <a href="http://www.unihiring.com/textilejobs.asp">textilesJobs </a >
+        <a href="http://www.unihiring.com/jobsbybranch.asp">see all </a >
+</div>
+</div>
+<div id="exam13">
+<div id="run19">
+    <a href="http://www.unihiring.com/client/postfreejob.php">post free jobs |</a>
+    <a href="http://www.unihiring.com/about.html">about |</a>
+    <a href="http://www.unihiring.com/login/login.jsp">login |</a>
+    <a href="http://www.unihiring.com/upgrade/upgrade.jsp">Upgrade | </a>
+    <a href="http://www.unihiring.com/policy.html">policy |</a ><br>
+        <a href="http://www.unihiring.com/services.html">services| </a >
+            <a href="http://www.unihiring.com/apply.html">Apply |</a>
+        <a href="http://www.unihiring.com/faqs.html">Faqs |</a><br>
+        <a href="http://www.unihiring.com/partners.html">With us |</a>
+        <a href="http://www.unihiring.com/refunds.html">refunds | </a>
+        <a href="http://www.unihiring.com/pricing.html">pricing  \</a>
+        <a href="http://www.unihiring.com/feast.html">feast \</a ><br>
+            <a href="http://www.unihiring.com/contact.html">contacts |</a >
+                <a href="http://www.unihiring.com/leaderboard.html">leaderboard |</a>
+            <a href="http://www.unihiring.com/rankings.html">ranking |</a>
+            <a href="http://www.unihiring.com/contest/contest.jsp">contest |</a>
+            <a href="http://www.unihiring.com/unihackathon/unihackathon.jsp">unihackathon |</a><br>
+            <p class="ring">© 2018 All Rights Reserved,UniHiring Solutions Pvt Ltd.,India<br> 
+            © Corporate Identity Number:U74999KA2018PTC112413</p>
+        </div>
+        <div id="run19b">
+            <p class="ring2"align="center">1800-200-3221<br>
+                contest@unihiring.com</p>
+            </div>  
+        <div id="run19c">
+            <a href="https://www.facebook.com/unihiring">Facebook</a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Funihiring">Twitter</a>
+            <a href="https://www.linkedin.com/company/unihiring">Linkedin</a>
+        </div>     
+
+</div>
+</footer>
+</html>
+
+
+   
+
+          
+
+
+    
+   
+    
+        
+
+   
+</body>
+</html>
