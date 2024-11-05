@@ -1,0 +1,45 @@
+#big p{
+    font-size: 30px;
+}
+#big span{
+    font-size: 30px;
+    color: rgb(247, 156, 171);
+}
+#big2{
+   font-size: 25px;
+   color: rgb(54, 52, 52);
+}
+#theme{
+margin-left: 30px;
+}
+#theme1{
+    margin-left:30px;
+}
+#theme2{
+    margin-left: 30px;
+}
+#theme3{
+    margin-left: 30px;
+}
+#theme4{
+    margin-left: 30px;
+}
+.blur{
+height: 40px;background-color: red;font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;border-color: red;border-radius: 20px 25px;font-size: 20px;
+width: 200px;margin-top: 2px;
+}
+#arrow{
+    margin-top: 130px;
+}
+#arrow1{
+    padding-left: 30px;margin-top: 130px;
+ }
+
+
+#wallpaper{
+    display: flex;width: 100%;
+}
+#row4a{
+    width: 100%;
+}
